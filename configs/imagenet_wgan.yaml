@@ -1,0 +1,21 @@
+model: gan
+epochs: 30
+learning_rate: 1.5e-6
+batch_size: 24
+codebook_dim: 64
+num_tokens: 8192
+hidden_dim: 64
+num_res_blocks: 8
+p_loss_weight: 1.0
+disc_weight: 0.001
+lr_decay: True
+precision: 16
+backup: True
+log_images: True
+num_workers: 16
+train_dir: 'datasets/imagenet1k/train/'
+val_dir: 'datasets/imagenet1k/val/'
+image_log_steps: 1000
+pretrained_path: wavevae.ckpt
+
+

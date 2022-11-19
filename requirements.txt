@@ -1,0 +1,13 @@
+torch
+torchvision
+pudb
+pytorch-lightning
+einops
+regex
+ftfy
+cython
+pillow
+sklearn
+tensorboard
+PyWavelets
+opencv-python
