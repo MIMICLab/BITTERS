@@ -52,7 +52,9 @@ For training, provide config file and training dataset.
 Please refer to example config files in configs. 
 
 imagenet_wnet.yaml: config for Stage 1 pretraining.
+
 imagenet_wvae.yaml: config for calibration before Stage 2.
+
 imagenet_wgan.yaml: config for Stage 2 training.
 
 In this repository, WaveGAN is the final model that we used for BITTERS.
